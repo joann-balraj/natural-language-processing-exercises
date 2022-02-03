@@ -46,6 +46,3 @@ def get_blog_articles():
         df = pd.DataFrame(article_list)
         df.to_json('codeup_blog_articles.json')
     return df
-
-
-# Great, this function is working now
